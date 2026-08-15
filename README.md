@@ -9,7 +9,7 @@ A member agent of **图灵星球 Agent 军团**, generated from [agent-template]
 2. **Push to GitHub as its own repo** — run from *inside this folder* so the repo root is the agent:
    ```bash
    git init && git add -A && git commit -m "Scaffold from agent-template"
-   gh repo create job-agent --private --source . --push
+   gh repo create job-agent --public --source . --push
    ```
    (If your deploy later says *"root only contains subdirectories"*, you pushed a parent folder — redo this from inside the agent folder.)
 3. **Fleet auto-sync** (optional but recommended) → [grant the bot access](#fleet-auto-sync-keep-this-repo-on-the-latest-template).
