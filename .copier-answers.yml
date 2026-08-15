@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY.
+# This records which agent-template version this repo was generated from,
+# so `copier update` can pull future changes as a 3-way merge.
+_commit: v0.0.26
+_src_path: ./_tpl
+adopt_mode: false
+author_email: you@example.com
+author_name: you
+description: An 图灵星球 Agent 军团 member agent.
+project_name: job-agent
+project_slug: job-agent
+register_in_fleet: true
